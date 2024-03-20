@@ -152,3 +152,68 @@
 //       isClose = false;
 
 // console.log(!isCheked || isClose);
+
+// ....................................
+
+
+// const numberOffilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+
+// const personalMovieDB = {
+//     count: numberOffilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+
+// const a = prompt('Один из последних просмотренных фильмов?', ''),
+//       x = prompt('Как звали главного актера?',''),
+//       b = prompt('Какую вы дадите ему оценку', ''),
+//       c = prompt('Один из последних просмотренных фильмов?', ''),
+//       z = prompt('Как звали главного актера?',''),
+//       d = prompt('Какую вы дадите ему оценку', '');
+
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.actors[a] = x;
+// personalMovieDB.movies[c] = d;
+// personalMovieDB.actors[c] = z;
+  
+// console.log(personalMovieDB);
+
+
+// .............................................
+
+// if (4) {
+//     console.log('Ok!');
+// } else {
+//     console.log('Error');
+// }
+
+// const num = 50;
+
+// if (num < 49) {
+//     console.log('error');
+// } else if (num > 100) {
+//     console.log('Много');
+// } else {
+//     console.log('ok');
+// }
+
+// (num === 50) ? console.log('ok') :  console.log('error');
+
+const num = 50;
+
+switch (num) {
+    case 49:
+        console.log('Неверно');
+        break;
+    case 100:
+        console.log('Неверно');
+        break;
+    case 50:
+        console.log('uraa');
+        break;
+    default:
+        console.log('dddid');
+        break;
+}
